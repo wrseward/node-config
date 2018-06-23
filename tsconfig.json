@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "allowJs": false,
+    "target": "ES5",
+    "noEmitOnError": true,
+    "module": "umd",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "./lib/**/*"
+  ]
+}
