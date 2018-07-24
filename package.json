@@ -54,7 +54,7 @@
     "fixpack": "fixpack",
     "lint": "tslint -c tslint.json '{lib,__tests__}/**/*.ts'",
     "lint:fix": "npm run lint -- --fix",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },

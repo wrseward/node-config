@@ -1,2 +1,7 @@
 /lib
 /__tests__
+.editorconfig
+.nvmrc
+jest.config.js
+tsconfig.json
+tslint.json
