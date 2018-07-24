@@ -19,6 +19,6 @@ export default class Config {
   }
 
   public reset(): void {
-    this.state = this.initialState
+    this.state = cloneDeep(this.initialState)
   }
 }

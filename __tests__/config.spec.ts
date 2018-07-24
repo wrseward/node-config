@@ -28,11 +28,19 @@ describe('config', () => {
   })
 
   it('can be reset to intiial values', () => {
-    const config = new Config({ 'some-key': 'some value' })
+    const config = new Config({
+      'some-key': 'some value',
+      'another-key': { 'nested-key': 'nested value' }
+    })
 
     config.set('some-key', 'another value')
     expect(config.get('some-key')).toEqual('another value')
     config.reset()
     expect(config.get('some-key')).toEqual('some value')
+
+    config.set('another-key.nested-key', 'foo')
+    expect(config.get('another-key')).toEqual({ 'nested-key': 'foo' })
+    config.reset()
+    expect(config.get('another-key')).toEqual({ 'nested-key': 'nested value' })
   })
 })
