@@ -1,7 +1,7 @@
 {
   "name": "@wrseward/config",
   "description": "Simple application configuration for JavaScript",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "William Seward <wrseward@gmail.com>",
   "bugs": {
     "url": "https://github.com/wrseward/node-config/issues"
