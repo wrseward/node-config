@@ -14,7 +14,6 @@
     "@types/dot-prop": "^4.2.0",
     "@types/jest": "^23.1.1",
     "@types/lodash.clonedeep": "^4.5.3",
-    "fixpack": "^2.3.1",
     "husky": "^1.0.0-rc.9",
     "jest": "^22.4.4",
     "lint-staged": "^7.2.0",
